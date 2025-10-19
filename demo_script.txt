@@ -1,0 +1,12 @@
+Demo Script (Narrated)
+1) Show repo & explain LangGraph nodes.
+2) Ingest: python -m app.rag.ingest --input_dir ./data/samples --persist_dir ./.chroma_mof
+3) Run CLI: python -m app.cli --persist_dir ./.chroma_mof
+4) Ask:
+   - Summarise UiO-66 for drug delivery.
+   - Compare CO2 adsorption (Mg-MOF-74 vs UiO-66-NH2 vs ZIF-8).
+   - Find 3 key papers on MOF drug delivery (Crossref).
+   - pubchem: benzenedicarboxylate
+   - tool:mp Mg-O
+5) Show Sources.
+6) Close with limitations & future work.
